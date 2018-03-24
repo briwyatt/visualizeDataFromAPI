@@ -32,7 +32,7 @@ function draw(){
     // use boolean test
     // all javascript ever wants to do is have things be true or false
     if(spaceData){
-        randomSeed(4);
+        randomSeed(5);
         for(var i = 0; i < spaceData.number; i++){
             fill(255);
             ellipse(random(height), random(width), 16, 16);
