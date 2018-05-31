@@ -10,8 +10,7 @@ const HTTP = 'http' + '://',
       SITE = 'api.Open-Notify.org/',
       FILE = 'astros.json',
       REMOTE = true,
-      // PATH = REMOTE && HTTP + SITE + FILE || FILE,
-      PATH = REMOTE + SITE + FILE || FILE,
+      PATH = REMOTE && HTTP + SITE + FILE || FILE,
       COLOR = 'OrangeRed';
  
  
